@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Todo List App</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="task_header">
+      <h1>Task List 2024</h1>
+      <form action="" class="new_task_form">
+        <input
+          type="text"
+          name="new_task_input"
+          class="task_input"
+          placeholder="Write your first task!"
+        />
+        <input
+          type="submit"
+          name="new_task_submit"
+          class="task_submit"
+          value="Add Task"
+        />
+      </form>
+    </header>
+
+    <main>
+      <section class="current_tasks">
+        <h2>My Current Tasks</h2>
+        <div class="all_tasks">
+          <!-- <div class="single_task">
+            <div class="content">
+              <input type="text" value="A new task" readonly />
+              <div class="actions">
+                <br />
+                <button class="edit">Edit</button>
+                <button class="complete">Complete</button>
+                <button class="delete">Delete</button>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </main>
+
+    <script src="controle.js"></script>
+  </body>
+</html>

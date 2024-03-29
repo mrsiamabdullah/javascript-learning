@@ -1,0 +1,130 @@
+/* // <uniquifier>: Use a uniquifier for the class name */
+/* // <weight>: Use a value from 100 to 900 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  background-color: #dbd9db;
+}
+
+.task_header {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  padding: 25px;
+  font-size: 45px;
+}
+
+.task_input {
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  width: 350px;
+}
+
+.task_submit {
+  background-color: #848fa5;
+  padding: 5px 30px;
+  font-size: 1rem;
+  margin-bottom: 25px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.task_submit:hover {
+  background-color: black;
+  color: white;
+  transition: all ease-in 0.1s;
+  outline: none;
+  border: none;
+}
+
+.current_tasks h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+.all_tasks {
+  border: 3px solid black;
+  margin: 0px 300px;
+  padding: 25px;
+}
+
+.content input {
+  padding: 5px;
+  font-size: 1.4rem;
+  outline: none;
+  width: 450px;
+  margin-bottom: 25px;
+}
+
+.edit {
+  background-color: black;
+  color: white;
+  padding: 5px 30px;
+  border: 2px solid black;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.edit:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all ease 0.1s;
+  outline: none;
+  border: none;
+}
+
+.complete {
+  background-color: #45503b;
+  color: white;
+  padding: 5px 30px;
+  border: 2px solid black;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin: 10px 20px;
+  font-size: 1rem;
+}
+
+/* .complete {
+  text-decoration: line-through;
+  opacity: 0.5;
+} */
+
+.complete:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all ease 0.1s;
+  outline: none;
+  border: none;
+}
+
+.delete {
+  background-color: #c14953;
+  color: white;
+  padding: 5px 30px;
+  border: 2px solid black;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.delete:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  transition: all ease-in 0.1s;
+  outline: none;
+  border: none;
+}

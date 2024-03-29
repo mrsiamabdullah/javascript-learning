@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Basic Calculator</h1>
+
+      <div class="input">
+        <input
+          type="number"
+          placeholder="Enter your value"
+          id="input_one"
+        />
+
+        <input
+          type="number"
+          placeholder="Enter your value"
+          id="input_two"
+        />
+      </div>
+
+      <div class="buttons">
+        <a id="add" onclick="add ()">Addition ( + )</a>
+        <a id="sub" onclick="sub ()">Substraction ( - )</a>
+        <a id="multiply" onclick="multiply ()">Multiplication ( × )</a>
+        <a id="divition" onclick="divition ()">Divition ( / )</a>
+      </div>
+
+      <div class="result">
+        <h2>Result: <span id="result">0</span></h2>
+      </div>
+    </section>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
