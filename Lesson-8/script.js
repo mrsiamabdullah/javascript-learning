@@ -42,3 +42,98 @@ console.log(wordLength.length);
 var toUppercase = "Bangladesh";
 toUppercase = toUppercase.toUpperCase();
 console.log(toUppercase);
+console.log(toUppercase.slice(0, 3).toLowerCase());
+
+// ------
+// var userFirstName = prompt("Enter your first name:");
+// var userLastName = prompt("Enter your last name:");
+
+// userFullName = userFirstName.concat(" " + userLastName);
+
+// document.write("User Name: ", userFullName, "</br>");
+// document.write("User Name Total Length: " + userFullName.length, "</br>");
+// document.write(
+//   "User Name in Uppercase: " + userFullName.toUpperCase(),
+//   "</br>"
+// );
+// document.write("User Name 2nd Position Word: " + userFullName.charAt(2));
+
+// ---
+// Arithmetic and assignment operator
+
+// +, -, *, /, %, **, ++, --
+
+// Assignment Operator: +=, -=, /=, *=, %=, **=
+
+var x = 3;
+x += 6;
+console.log(x);
+
+var y = 2;
+y *= 10;
+console.log(y);
+
+var z = 12;
+z /= 6;
+console.log(z);
+
+// var addition1stNumber = prompt("Enter your first digit: ");
+// var addition2ndNumber = prompt("Enter your second digit: ");
+
+// addition1stNumber = parseInt(addition1stNumber, 10);
+// addition2ndNumber = parseInt(addition2ndNumber, 10);
+
+// total = addition1stNumber + addition2ndNumber;
+
+// document.write("Total: ", total);
+
+// ------
+
+// var user1stNumber, user2ndNumber;
+// user1stNumber = prompt("Enter your 1st number:");
+// user2ndNumber = prompt("Enter your 2nd number:");
+
+// user1stNumber = parseInt(user1stNumber, 10);
+// user2ndNumber = parseInt(user2ndNumber, 10);
+
+// addition = user1stNumber + user2ndNumber;
+// substraction = user1stNumber - user2ndNumber;
+// multiplication = user1stNumber * user2ndNumber;
+// divition = user1stNumber / user2ndNumber;
+
+// document.write(
+//   "Addition: ",
+//   user1stNumber,
+//   " + ",
+//   user2ndNumber,
+//   " = ",
+//   addition,
+//   "</br>"
+// );
+// document.write(
+//   "Substraction : ",
+//   user1stNumber,
+//   " - ",
+//   user2ndNumber,
+//   " = ",
+//   substraction,
+//   "</br>"
+// );
+// document.write(
+//   "Multiplication : ",
+//   user1stNumber,
+//   " × ",
+//   user2ndNumber,
+//   " = ",
+//   multiplication,
+//   "</br>"
+// );
+// document.write(
+//   "Divition : ",
+//   user1stNumber,
+//   " / ",
+//   user2ndNumber,
+//   " = ",
+//   divition,
+//   "</br>"
+// );
