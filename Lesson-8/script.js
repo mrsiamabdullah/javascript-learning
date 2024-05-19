@@ -137,3 +137,41 @@ console.log(z);
 //   divition,
 //   "</br>"
 // );
+
+// ------
+// var cels = parseFloat(prompt("Enter celsius:"));
+// var result = cels * (9 / 5) + 32;
+// document.write("Result: ", result);
+
+// var num1 = 25;
+// var num2 = 38;
+// var num3 = 12;
+
+// console.log(num1 < num2);
+// console.log(num1 <= num2);
+// console.log(20 == "20");
+// console.log(20 != "20");
+// console.log(21 !== "20");
+// console.log(num1 < num2 && num1 < num2 && num1 > num3);
+// console.log(num1 > num2 || num3 > num2);
+// console.log(!(22 < 20));
+// console.log(!false);
+
+// ------
+// var num = prompt("Enter your grade number");
+
+// if (num >= 80 && num <= 100) {
+//   document.write("Your Grade is A+");
+// } else if (num > 100) {
+//   alert("Enter number within 100");
+// } else if (num >= 70) {
+//   document.write("Your Grade is A");
+// } else if (num >= 50) {
+//   document.write("Your Grade is A-");
+// } else if (num >= 40) {
+//   document.write("Your Grade is B");
+// } else if (num >= 33) {
+//   document.write("Your Grade is C");
+// } else {
+//   document.write("You failed");
+// }
