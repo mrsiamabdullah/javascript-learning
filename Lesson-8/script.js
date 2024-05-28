@@ -356,3 +356,24 @@ console.log(z);
 //   console.log(" ", i);
 //   i = i + 1;
 // }
+
+// for (var i = 1; i <= 100; i = i + 1) {
+//   if (i <= 10) {
+//     break;
+//   }
+//   document.write(" " + i);
+// }
+
+// for (var testNumber = 1; testNumber <= 100; testNumber++) {
+//   if (testNumber == 90) {
+//     break;
+//   }
+//   document.write(" ", testNumber);
+// }
+
+// for (var continueNumber = 1; continueNumber <= 100; continueNumber++) {
+//   if (continueNumber == 10) {
+//     continue;
+//   }
+//   document.write(" ", continueNumber);
+// }
