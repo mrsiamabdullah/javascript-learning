@@ -377,3 +377,77 @@ console.log(z);
 //   }
 //   document.write(" ", continueNumber);
 // }
+
+// var numberCheck = Number(prompt("Enter a Number: "));
+
+// if (numberCheck > 0) {
+//   console.log("Positive");
+// } else {
+//   console.log("Negative");
+// }
+
+// var result = numberCheck > 0 ? "Positive" : "Negative";
+// console.log(result);
+
+// var resultCheck = Number(prompt("Enter your result number: "));
+
+// var finalResult = resultCheck >= 33 ? "Passed" : "Failed";
+// console.log(finalResult);
+
+// var numberCheckOne = Number(prompt("Enter your 1st number: "));
+// var numberCheckTwo = Number(prompt("Enter your 2nd number: "));
+// var numberCheckThree = Number(prompt("Enter your 3rd number: "));
+
+// var result = numberCheckOne < numberCheckTwo ? numberCheckTwo : numberCheckTwo < numberCheckOne ? numberCheckOne :
+
+// // Addition Function
+// document.write("</br>", "Addition Function", "</br>");
+// function addition(num1, num2) {
+//   total = num1 + num2;
+//   document.write("Result: ", total, " ", "</br>");
+// }
+
+// addition(358, 343);
+// addition(232, 323);
+// addition(21, 21);
+
+// document.write("</br>", "Subtraction Function", "</br>");
+
+// // Subtraction Function
+// function subtraction(value1, value2) {
+//   result = value1 - value2;
+//   document.write("Result: ", result, " ", "</br>");
+// }
+
+// subtraction(33, 3);
+// subtraction(1000, 500);
+// subtraction(243, 342);
+
+// document.write("</br>", "Multiplication Function", "</br>");
+
+// // Multiplication Function
+// function multiplication(x, y) {
+//   totalValue = x * y;
+//   document.write("Result: ", totalValue, " ", "</br>");
+// }
+
+// multiplication(32, 22);
+// multiplication(344, 345);
+// multiplication(78435, 5435);
+
+// // Division Function
+// document.write("</br>", "Division Function", "</br>");
+// function division(d1, d2) {
+//   totaldivision = d1 / d2;
+//   document.write("Result: ", totaldivision, " ", "</br>");
+// }
+
+// division(10, 5);
+// division(23, 32);
+// division(100, 3);
+
+// Summation
+(function sum(a, b) {
+  sumResult = a + b;
+  console.log(sumResult);
+})(73, 2);
