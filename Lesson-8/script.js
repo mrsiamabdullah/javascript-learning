@@ -1,81 +1,81 @@
-/* alert("Important!");
-document.write("I love bangladesh"); */
-console.log("Hello World!");
+// /* alert("Important!");
+// document.write("I love bangladesh"); */
+// console.log("Hello World!");
 
-var name1, name2, name3, testNumber, newName, number1;
+// var name1, name2, name3, testNumber, newName, number1;
 
-name1 = "Siam Abdullah";
-newName = "Sinan Abdullah";
-name2 = "Nafiz Abdullah";
-name3 = "Jubayer Abdullah";
-(testNumber = "17.5"), (testNumber = parseFloat(testNumber));
-number1 = (17.765649).toFixed(3);
+// name1 = "Siam Abdullah";
+// newName = "Sinan Abdullah";
+// name2 = "Nafiz Abdullah";
+// name3 = "Jubayer Abdullah";
+// (testNumber = "17.5"), (testNumber = parseFloat(testNumber));
+// number1 = (17.765649).toFixed(3);
 
-console.log(newName);
-console.log(name1);
-console.log(name2);
-console.log(name3);
-console.log(typeof testNumber);
-console.log(number1);
-console.log(typeof Number("17"));
+// console.log(newName);
+// console.log(name1);
+// console.log(name2);
+// console.log(name3);
+// console.log(typeof testNumber);
+// console.log(number1);
+// console.log(typeof Number("17"));
 
-// String Concatination
-var firstName = "Siam";
-var lastName = " Abdullah";
-var fullName = firstName.concat(lastName);
+// // String Concatination
+// var firstName = "Siam";
+// var lastName = " Abdullah";
+// var fullName = firstName.concat(lastName);
 
-console.log(fullName);
-console.log("My name is " + firstName + " " + lastName);
+// console.log(fullName);
+// console.log("My name is " + firstName + " " + lastName);
 
-// Library functions for string
-var wordLength = "I love Bangladesh";
-console.log(wordLength.length);
+// // Library functions for string
+// var wordLength = "I love Bangladesh";
+// console.log(wordLength.length);
 
-// var userPrompt = prompt("Enter your text here");
-// var userNumberPrompt = prompt("Enter your text character number");
+// // var userPrompt = prompt("Enter your text here");
+// // var userNumberPrompt = prompt("Enter your text character number");
 
-// document.write("Your text length is: " + userPrompt.length, "</br>");
+// // document.write("Your text length is: " + userPrompt.length, "</br>");
 
-// letterCount = userPrompt.charAt(userNumberPrompt);
-// document.write("Your text character letter: " + letterCount);
+// // letterCount = userPrompt.charAt(userNumberPrompt);
+// // document.write("Your text character letter: " + letterCount);
 
-var toUppercase = "Bangladesh";
-toUppercase = toUppercase.toUpperCase();
-console.log(toUppercase);
-console.log(toUppercase.slice(0, 3).toLowerCase());
+// var toUppercase = "Bangladesh";
+// toUppercase = toUppercase.toUpperCase();
+// console.log(toUppercase);
+// console.log(toUppercase.slice(0, 3).toLowerCase());
 
-// ------
-// var userFirstName = prompt("Enter your first name:");
-// var userLastName = prompt("Enter your last name:");
+// // ------
+// // var userFirstName = prompt("Enter your first name:");
+// // var userLastName = prompt("Enter your last name:");
 
-// userFullName = userFirstName.concat(" " + userLastName);
+// // userFullName = userFirstName.concat(" " + userLastName);
 
-// document.write("User Name: ", userFullName, "</br>");
-// document.write("User Name Total Length: " + userFullName.length, "</br>");
-// document.write(
-//   "User Name in Uppercase: " + userFullName.toUpperCase(),
-//   "</br>"
-// );
-// document.write("User Name 2nd Position Word: " + userFullName.charAt(2));
+// // document.write("User Name: ", userFullName, "</br>");
+// // document.write("User Name Total Length: " + userFullName.length, "</br>");
+// // document.write(
+// //   "User Name in Uppercase: " + userFullName.toUpperCase(),
+// //   "</br>"
+// // );
+// // document.write("User Name 2nd Position Word: " + userFullName.charAt(2));
 
-// ---
-// Arithmetic and assignment operator
+// // ---
+// // Arithmetic and assignment operator
 
-// +, -, *, /, %, **, ++, --
+// // +, -, *, /, %, **, ++, --
 
-// Assignment Operator: +=, -=, /=, *=, %=, **=
+// // Assignment Operator: +=, -=, /=, *=, %=, **=
 
-var x = 3;
-x += 6;
-console.log(x);
+// var x = 3;
+// x += 6;
+// console.log(x);
 
-var y = 2;
-y *= 10;
-console.log(y);
+// var y = 2;
+// y *= 10;
+// console.log(y);
 
-var z = 12;
-z /= 6;
-console.log(z);
+// var z = 12;
+// z /= 6;
+// console.log(z);
 
 // var addition1stNumber = prompt("Enter your first digit: ");
 // var addition2ndNumber = prompt("Enter your second digit: ");
@@ -446,8 +446,16 @@ console.log(z);
 // division(23, 32);
 // division(100, 3);
 
+// IIFEs
 // Summation
-(function sum(a, b) {
-  sumResult = a + b;
-  console.log(sumResult);
-})(73, 2);
+// (function sum(a, b) {
+//   sumResult = a + b;
+//   console.log(sumResult);
+// })(73, 2);
+
+// // Function Expression
+var display = function displayMessage(message) {
+  console.log(message);
+};
+
+display("Hello World!");
