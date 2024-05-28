@@ -189,5 +189,170 @@ console.log(z);
 // ) {
 //   document.write("Vowel");
 // } else {
-//   document.write("Consonent");
+//   document.write("Consonant");
+// }
+
+// var letter = prompt("Enter a letter:");
+
+// letter = letter.toLowerCase();
+
+// switch (letter) {
+//   case "a":
+//     document.write("Vowel");
+//     break;
+//   case "e":
+//     document.write("Vowel");
+//     break;
+//   case "i":
+//     document.write("Vowel");
+//     break;
+//   case "o":
+//     document.write("Vowel");
+//     break;
+//   case "u":
+//     document.write("Vowel");
+//     break;
+//   default:
+//     document.write("Consonant");
+// }
+
+// var numberCount = prompt("Enter any digit:");
+// parseInt(numberCount);
+
+// switch (numberCount) {
+//   case "1": {
+//     document.write("One");
+//     break;
+//   }
+//   default: {
+//     document.write("Not a valid number");
+//   }
+// }
+
+// var numberCount = prompt("Enter any digit:");
+
+// switch (numberCount) {
+//   case "1":
+//     document.write("One");
+//     break;
+//   case "2":
+//     document.write("Two");
+//     break;
+//   case "3":
+//     document.write("Three");
+//     break;
+//   case "4":
+//     document.write("Four");
+//     break;
+//   case "5":
+//     document.write("Five");
+//     break;
+//   case "6":
+//     document.write("Six");
+//     break;
+//   case "7":
+//     document.write("Seven");
+//     break;
+//   case "8":
+//     document.write("Eight");
+//     break;
+//   case "9":
+//     document.write("Nine");
+//     break;
+//   case "10":
+//     document.write("Ten");
+//     break;
+//   default:
+//     document.write("Not a valid number");
+// }
+
+// for (
+//   var printValueBangladesh = 1;
+//   printValueBangladesh <= 10;
+//   printValueBangladesh = printValueBangladesh + 1
+// ) {
+//   document.write("<h1> Bangladesh </h1>");
+// }
+
+// document.write("<h1> END </h1>");
+
+// for (var x = 1; x <= 50; x = x + 1) {
+//   document.write("<h1>It's high time to take exercise</>");
+// }
+
+// for (var x = 1; x <= 10000; x = x + 1) {
+//   document.write(" " + x);
+// }
+
+// for (var x = 1; x <= 5; x = x + 1) {
+//   var numberOne = parseInt(prompt("Enter your first number: "));
+//   var numberTwo = parseInt(prompt("Enter your second number: "));
+
+//   summation = numberOne + numberTwo;
+
+//   console.log("Result: " + summation);
+// }
+
+// var e = 0;
+// while (e <= 98) {
+//   e = e + 2;
+//   document.write(" ", e);
+// }
+
+// var d = 1;
+// var summation = 0;
+
+// while (d <= 100) {
+//   d = d++;
+//   if (d % 3 == 0 && d % 5 == 0) {
+//     summation = summation + d;
+//   }
+//   console.log(" " + summation);
+// }
+
+// var i = 1;
+// var sum = 0;
+
+// while (i <= 100) {
+//   i = i + 1;
+//   if (i % 3 == 0 && i % 5 == 0) {
+//     document.write(" ", i);
+//     sum = sum + i;
+//   }
+// }
+// document.write(" ,Result: ", sum);
+
+// var i = 1;
+// while (i <= 10) {
+//   console.log(" ", i);
+//   i = i++;
+// }
+
+// var i = 1;
+
+// do {
+//   document.write(" ", i);
+//   i++;
+// } while (i <= 100);
+// ------
+// var e = 1;
+// var sum = 0;
+// do {
+//   if (e % 3 == 0 && e % 5 == 0) {
+//     document.write(" ", e);
+//     sum = sum + e;
+//     e = e + 1;
+//   }
+// } while (e <= 100);
+
+// var i = 1;
+// while (i <= 100) {
+//   document.write(" " + i);
+//   i = i + 1;
+// }
+
+// var i = 1;
+// while (i <= 100) {
+//   console.log(" ", i);
+//   i = i + 1;
 // }
