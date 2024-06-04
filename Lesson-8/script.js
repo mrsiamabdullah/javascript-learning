@@ -454,8 +454,58 @@
 // })(73, 2);
 
 // // Function Expression
-var display = function displayMessage(message) {
-  console.log(message);
-};
+// var display = function displayMessage(message) {
+//   console.log(message);
+// };
 
-display("Hello World!");
+// display("Hello World!");
+// display("Hi this is me");
+// display("This is my computer");
+
+// var names = ["Siam", "Nafiz", "Jubayer"];
+// console.log(names);
+// console.log(names[2]);
+// console.log(names[0]);
+// names.push("Arnob");
+// console.log(names);
+// names.push("Samir");
+// console.log(names);
+// names.pop();
+// console.log(names);
+// names.pop([3]);
+// console.log(names);
+
+// var countrys = new Array(5);
+
+// countrys[0] = "Bangladesh";
+// countrys[1] = "India";
+// countrys[2] = "Pakistan";
+// countrys[3] = "Nepal";
+// countrys[4] = "Bhutan";
+
+// console.log(countrys.length);
+
+// var num = new Array();
+
+// for (var i = 0; i < 5; i++) {
+//   num[i] = parseInt(prompt("Enter your summetion number: "));
+// }
+
+// var sum = 0;
+
+// for (var i = 0; i < 5; i++) {
+//   console.log(num[i]);
+//   sum = sum + num[i];
+// }
+
+// console.log("Total: ", sum);
+
+// console.log(num.length);
+
+// var cars = [];
+
+// cars[0] = "BMW";
+// cars[1] = "Tesla";
+// cars[2] = "Toyota";
+
+// console.log(cars);
