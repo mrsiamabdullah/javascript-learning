@@ -509,3 +509,56 @@
 // cars[2] = "Toyota";
 
 // console.log(cars);
+
+// const names = ["Siam", "Nafis", "Jubayer"];
+
+// console.log(names);
+// names.shift();
+// console.log(names);
+// names.unshift("Abdullah");
+// console.log(names);
+// names.splice(2, 3, "Siam", "Abdullah");
+// console.log(names);
+// names.splice(0, 2);
+// console.log(names);
+// var newArray = names.slice(1, 2);
+// console.log(newArray);
+// console.log(names);
+
+// names.sort();
+// console.log(names);
+
+// names.reverse();
+// console.log(names);
+
+// const someNumbers = [20, 24, 12, 24, 33, 94];
+// someNumbers.sort(function (a, b) {
+//   return a - b;
+// });
+
+// console.log(someNumbers);
+// ---
+// const reverseNumber = [85, 45, 49, 21, 10, 69];
+// reverseNumber.sort(function (a, b) {
+//   return b - a;
+// });
+
+// console.log(reverseNumber);
+
+const studentNames = [
+  "Siam",
+  "Ashraful",
+  "Sowad",
+  "Rashedul",
+  "Toukir",
+  "Taskin",
+  "Sama",
+  "Emon",
+  "Samir",
+  "Nohan",
+];
+console.log(studentNames);
+
+for (var names = 0; names < 10; names++) {
+  console.log(studentNames[names]);
+}
