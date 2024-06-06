@@ -688,3 +688,33 @@
 //   default:
 //     document.write("Not a valid number!");
 // }
+
+// var letterChar = prompt("Enter a letter: ");
+// letterChar = letterChar.toLowerCase();
+
+// switch (letterChar) {
+//   case "a":
+//   case "e":
+//   case "i":
+//   case "o":
+//   case "u":
+//     document.write("Vowel");
+//     break;
+//   default:
+//     document.write("Consonant");
+// }
+
+// var addition = 0;
+
+// for (var x = 0; x <= 5; x++) {
+//   addition = addition + x;
+//   console.log(addition);
+// }
+
+// for (var x = 1; x <= 5; x++) {
+//   var addition = parseInt(prompt("Enter first Number: "));
+//   var addition2 = parseInt(prompt("Enter second Number: "));
+//   total = addition + addition2;
+//   console.log("Total: ", total);
+//   console.log("Bangladesh");
+// }
