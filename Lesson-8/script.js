@@ -545,20 +545,72 @@
 
 // console.log(reverseNumber);
 
-const studentNames = [
-  "Siam",
-  "Ashraful",
-  "Sowad",
-  "Rashedul",
-  "Toukir",
-  "Taskin",
-  "Sama",
-  "Emon",
-  "Samir",
-  "Nohan",
-];
-console.log(studentNames);
+// const studentNames = [
+//   "Siam",
+//   "Ashraful",
+//   "Sowad",
+//   "Rashedul",
+//   "Toukir",
+//   "Taskin",
+//   "Sama",
+//   "Emon",
+//   "Samir",
+//   "Nohan",
+// ];
+// console.log(studentNames);
 
-for (var names = 0; names < 10; names++) {
-  console.log(studentNames[names]);
-}
+// for (var names = 0; names < 10; names++) {
+//   console.log(studentNames[names]);
+// }
+
+// console.clear();
+
+// Task ---
+// • Create a function called highestScore that will
+// • Receive a 1d array called scores
+// • return the highest score
+
+// function highestScore(scores) {
+//   // console.log(scores);
+//   let max = scores[0];
+//   for (let x = 1; x < scores.length; x++) {
+//     if (max < scores[x]) {
+//       max = scores[x];
+//     }
+//   }
+//   return max;
+// }
+
+// let scores = [45, 46, 87, 23, 65, 34, 24, 765, 435, 345];
+// let total = highestScore(scores);
+// console.log(total);
+
+// Task ---
+// • Create a function called highestRunScorer that will
+// • Receive a 2d array called playersInfo
+// • Based on highest score, return the name of the player
+
+// function highestRunScorer(playersInfo) {
+//   var max = playersInfo[0][0];
+//   var maxScore = playersInfo[0][1];
+
+//   for (var x = 1; x < playersInfo.length; x++) {
+//     if (maxScore < playersInfo[x][1]) {
+//       maxScore = playersInfo[x][1];
+//       max = playersInfo[x][0];
+//     }
+//   }
+//   return max;
+// }
+
+// var playersInfo = [
+//   ["Siam Abdullah", 1770],
+//   ["Nafiz Abdullah", 840],
+//   ["Jubayer Abdullah", 240],
+// ];
+
+// var maxScoreResult = highestRunScorer(playersInfo);
+// console.log(maxScoreResult);
+
+// var name = "Siam Abdullah";
+// console.log(name.length);
