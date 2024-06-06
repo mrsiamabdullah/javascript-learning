@@ -9,6 +9,7 @@
 // name2 = "Nafiz Abdullah";
 // name3 = "Jubayer Abdullah";
 // (testNumber = "17.5"), (testNumber = parseFloat(testNumber));
+
 // number1 = (17.765649).toFixed(3);
 
 // console.log(newName);
@@ -614,3 +615,29 @@
 
 // var name = "Siam Abdullah";
 // console.log(name.length);
+
+// Task 2 ===
+
+// get first name from user
+// get last name from user
+// add without using library function
+// print full name
+// total length of full name
+// convert full name into uppercase
+// print the 2nd position from full name
+// ---
+// var firstName = prompt("Enter your first name: ");
+// var lastName = prompt("Enter your last name: ");
+
+// var fullName = firstName + " " + lastName;
+
+// document.write("Your name is: ", fullName, "</br>");
+// document.write("Total length of your name: ", fullName.length, "</br>");
+// document.write(
+//   "Your name into uppercase: " + fullName.toLocaleUpperCase(),
+//   "</br>"
+// );
+// document.write(
+//   "Printing the 2nd position of your full name: " + fullName.charAt(2)
+// );
+// console.log(`Hello there`);
