@@ -641,3 +641,50 @@
 //   "Printing the 2nd position of your full name: " + fullName.charAt(2)
 // );
 // console.log(`Hello there`);
+
+// var letterGrade = parseInt(prompt("Enter your number: "));
+
+// if (letterGrade > 100 || letterGrade <= 0)
+//   document.write("Not a valid number!");
+// else if (letterGrade >= 80) document.write("A+");
+// else if (letterGrade >= 69) document.write("A");
+// else if (letterGrade >= 59) document.write("A-");
+// else if (letterGrade >= 49) document.write("B");
+// else if (letterGrade >= 39) document.write("C");
+// else if (letterGrade >= 33) document.write("D");
+// else document.write("Fail");
+
+// var spellNumber = prompt("Enter a digit: ");
+// spellNumber = parseInt(spellNumber);
+
+// switch (spellNumber) {
+//   case 1:
+//     document.write("One");
+//     break;
+//   case 2:
+//     document.write("Two");
+//     break;
+//   case 3:
+//     document.write("Three");
+//     break;
+//   case 4:
+//     document.write("Four");
+//     break;
+//   case 5:
+//     document.write("Five");
+//     break;
+//   case 6:
+//     document.write("Six");
+//     break;
+//   case 7:
+//     document.write("Seven");
+//     break;
+//   case 8:
+//     document.write("Eight");
+//     break;
+//   case 9:
+//     document.write("Nine");
+//     break;
+//   default:
+//     document.write("Not a valid number!");
+// }
