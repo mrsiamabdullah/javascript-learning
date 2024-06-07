@@ -718,3 +718,51 @@
 //   console.log("Total: ", total);
 //   console.log("Bangladesh");
 // }
+
+// (function addition(a, b) {
+//   var total = a + b;
+//   console.log(total);
+// })(10, 5);
+
+// (function subtraction(x, y) {
+//   var result = x - y;
+//   console.log(result);
+// })(330, 30);
+
+// (function greet() {
+//   var name = "Alice";
+//   console.log("Hello, " + name + "!");
+// })();
+// Output: Hello, Alice!
+
+// function message(message) {
+//   // Immediately Invoked Function Expression (IIFE)
+//   console.log(message);
+// }
+
+// message("Immediately Invoked Function Expression (IIFE)");
+// message("Hello World!");
+// message("Hello Alice!");
+
+// var printMessage = function message(message) {
+//   // Function Expression
+//   console.log(message);
+// };
+
+// printMessage("Function Expression");
+// printMessage("Hello Moto!");
+
+var newArray = [];
+
+for (var i = 0; i < 5; i++) {
+  newArray[i] = parseInt(prompt("Enter a number: "));
+}
+
+var sum = 0;
+
+for (var i = 0; i < 5; i++) {
+  console.log(newArray[i]);
+  sum = sum + newArray[i];
+}
+
+console.log("Total: ", sum);
