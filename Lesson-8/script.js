@@ -752,17 +752,17 @@
 // printMessage("Function Expression");
 // printMessage("Hello Moto!");
 
-var newArray = [];
+// var newArray = [];
 
-for (var i = 0; i < 5; i++) {
-  newArray[i] = parseInt(prompt("Enter a number: "));
-}
+// for (var i = 0; i < 5; i++) {
+//   newArray[i] = parseInt(prompt("Enter a number: "));
+// }
 
-var sum = 0;
+// var sum = 0;
 
-for (var i = 0; i < 5; i++) {
-  console.log(newArray[i]);
-  sum = sum + newArray[i];
-}
+// for (var i = 0; i < 5; i++) {
+//   console.log(newArray[i]);
+//   sum = sum + newArray[i];
+// }
 
-console.log("Total: ", sum);
+// console.log("Total: ", sum);
