@@ -766,3 +766,11 @@
 // }
 
 // console.log("Total: ", sum);
+
+var number = parseInt(prompt("Enter a number: "));
+
+// if (result > 0) console.log("Positive");
+// else console.log("Negative");
+
+var result = number >= 0 ? "Positive" : "Negative";
+console.log(result);
