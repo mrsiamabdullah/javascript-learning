@@ -767,10 +767,34 @@
 
 // console.log("Total: ", sum);
 
-var number = parseInt(prompt("Enter a number: "));
+// var number = parseInt(prompt("Enter a number: "));
 
 // if (result > 0) console.log("Positive");
 // else console.log("Negative");
 
-var result = number >= 0 ? "Positive" : "Negative";
-console.log(result);
+// var result = number >= 0 ? "Positive" : "Negative";
+// console.log(result);
+
+// number > 0 ? console.log("Positive") : console.log("Negative");
+
+// var letter = prompt("Enter a letter: ");
+// letter = letter.toLowerCase();
+
+// if (letter == "a") console.log("Vowel");
+// else if (letter == "e") console.log("Vowel");
+// else if (letter == "i") console.log("Vowel");
+// else if (letter == "o") console.log("Vowel");
+// else if (letter == "u") console.log("Vowel");
+// else console.log("Consonant");
+
+// letter == "a"
+//   ? console.log("Vowel")
+//   : letter == "e"
+//   ? console.log("Vowel")
+//   : letter == "i"
+//   ? console.log("Vowel")
+//   : letter == "o"
+//   ? console.log("Vowel")
+//   : letter == "u"
+//   ? console.log("Vowel")
+//   : console.log("Consonant");
