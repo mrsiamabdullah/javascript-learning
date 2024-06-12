@@ -798,3 +798,39 @@
 //   : letter == "u"
 //   ? console.log("Vowel")
 //   : console.log("Consonant");
+
+// console.log("Hello World!");
+// console.log("This is me writing code!");
+// console.log("I just learned a new thing");
+
+// for (i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// function StudentDetails(name, roll, section, shift, result) {
+//   this.name = name;
+//   this.roll = roll;
+//   this.section = section;
+//   this.shift = shift;
+//   this.result = result;
+// }
+
+// var Student_1 = new StudentDetails("Siam Abdullah", 7664, "C", "Morning", "A-");
+// var Student_2 = new StudentDetails("Ashraful Ahmed", 7578, "B", "Morning", "A");
+// var Student_3 = new StudentDetails("Sowad Akon", 7642, "C", "Morning", "A+");
+
+// console.log(Student_1);
+// console.log(Student_2);
+// console.log(Student_3);
+
+function MyFatherDetails(name, age, height, dateofbirth) {
+  this.name = name;
+  this.age = age;
+  this.height = height;
+  this.dateofbirth = dateofbirth;
+}
+
+var father = new MyFatherDetails("Md Ruhul Amin", 42, 5.8, "3/02/1985");
+console.log(father);
+
+console.log(454);
