@@ -807,6 +807,7 @@
 //   console.log(i);
 // }
 
+// Function Constructor
 // function StudentDetails(name, roll, section, shift, result) {
 //   this.name = name;
 //   this.roll = roll;
@@ -823,14 +824,68 @@
 // console.log(Student_2);
 // console.log(Student_3);
 
-function MyFatherDetails(name, age, height, dateofbirth) {
-  this.name = name;
-  this.age = age;
-  this.height = height;
-  this.dateofbirth = dateofbirth;
-}
+// function MyFatherDetails(name, age, height, dateofbirth) {
+//   this.name = name;
+//   this.age = age;
+//   this.height = height;
+//   this.dateofbirth = dateofbirth;
+// }
 
-var father = new MyFatherDetails("Md Ruhul Amin", 42, 5.8, "3/02/1985");
-console.log(father);
+// var father = new MyFatherDetails("Md Ruhul Amin", 42, 5.8, "3/02/1985");
+// console.log(father);
 
-console.log(454);
+// console.log(454);
+
+// function Product(ProductName, Price, Availability) {
+//   this.ProductName = ProductName;
+//   this.Price = Price;
+//   this.Availability = Availability;
+
+//   this.callFunction = function () {
+//     console.log(this.ProductName);
+//     console.log(this.Price);
+//     console.log(this.Availability);
+//   };
+// }
+
+// var watch = new Product("Watch", "43$", "30 Pics Available");
+// var car = new Product("Tesla", "92334$", "Out of stock");
+// var mobile = new Product("Apple", "893$", "Limited Addition");
+
+// watch.callFunction();
+// car.callFunction();
+// mobile.callFunction();
+
+// function newArray(name, country, mobile) {
+//   this.name = name;
+//   this.country = country;
+//   this.mobile = mobile;
+
+//   // this.Result = function () {
+//   //   console.log(this.name);
+//   //   console.log(this.country);
+//   //   console.log(this.mobile);
+//   // };
+// }
+
+// var Siam = new newArray("Siam Abdullah", "Bangladesh", "+982345545");
+// var Sowad = new newArray("Sowad Akon", "Uganda", "+935465869");
+// var Ash = new newArray("Ashraful Ahmed", "Nigeria", "+843893895");
+
+// Siam.Result();
+// Sowad.Result();
+// Ash.Result();
+// console.log(Sowad);
+
+// const num1 = parseInt(prompt("Enter your first number: "));
+// const num2 = parseInt(prompt("Enter your 2nd number: "));
+
+// result = Math.max(num1, num2);
+// console.log(result);
+
+// const randomNumber = Math.random();
+// randomCode = Math.floor(Math.random() * 999999);
+// if (randomCode <= 999999) {
+//   randomCode + 1000;
+//   console.log(randomCode);
+// }
