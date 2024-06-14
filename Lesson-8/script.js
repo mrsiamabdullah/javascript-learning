@@ -908,8 +908,8 @@
 // console.log(StudentDetails);
 
 let currentDate = new Date();
-console.log(currentDate);
-
+// document.write("<p>", "Time: ", currentDate.toLocaleTimeString(), "</p>");
+// console.log(currentDate);
 // let currentYear = currentDate.getFullYear();
 // console.log(currentYear);
 
@@ -921,3 +921,6 @@ console.log(currentDate);
 
 // let currentTime = currentDate.getUTCSeconds();
 // console.log(currentTime);
+
+// const d = new Date(2018, 6, 5, 10, 33, 30);
+// console.log(d);
