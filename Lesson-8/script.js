@@ -906,3 +906,18 @@
 // };
 
 // console.log(StudentDetails);
+
+let currentDate = new Date();
+console.log(currentDate);
+
+// let currentYear = currentDate.getFullYear();
+// console.log(currentYear);
+
+// let currentMonth = currentDate.getMonth();
+// console.log(currentMonth);
+
+// let currentDay = currentDate.getDay();
+// console.log(currentDay);
+
+// let currentTime = currentDate.getUTCSeconds();
+// console.log(currentTime);
