@@ -889,3 +889,20 @@
 //   randomCode + 1000;
 //   console.log(randomCode);
 // }
+
+// function CarDetails(CarName, CarModel, CarPrice) {
+//   this.CarName = CarName;
+//   this.CarModel = CarModel;
+//   this.CarPrice = CarPrice;
+// }
+
+// var car = new CarDetails("Tesla", "Model-X", "37575$");
+// console.log(car);
+
+// var StudentDetails = {
+//   Name: "Siam Abdullah",
+//   Section: "C",
+//   Roll: 237664,
+// };
+
+// console.log(StudentDetails);
