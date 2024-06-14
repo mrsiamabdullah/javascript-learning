@@ -924,3 +924,43 @@ let currentDate = new Date();
 
 // const d = new Date(2018, 6, 5, 10, 33, 30);
 // console.log(d);
+
+// DOM ======
+
+// const documentHtml = document.getElementById("heading");
+// documentHtml.innerHTML = "Hello World!";
+
+// const heading = document.getElementsByClassName("heading");
+// heading[0].innerText = "Hello";
+
+// document.getElementsByClassName("heading")[0].innerHTML = "Hello World";
+
+// document.getElementById("heading").innerText = "Hi this is me a simple line!";
+
+// document.querySelector(".heading").innerHTML = "Hi this is me Siam Abdullah";
+
+// document.querySelectorAll("ul li")[0].innerHTML = "don't click me";
+
+// document.querySelector(".button-div a").innerHTML = "Click to view the story";
+
+// let message = document.querySelector("#paragraph");
+
+// function clickMessage1() {
+//   message.innerHTML = "You have clicked on Button One";
+// }
+
+// function clickMessage2() {
+//   message.innerHTML = "You have clicked on Button Two";
+// }
+
+// let showImage = document.querySelector("#imageshow");
+
+// function clickMessage1() {
+//   showImage.src =
+//     "https://images.unsplash.com/photo-1718202248477-c5f770d6c8b9?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+// }
+
+// function clickMessage2() {
+//   showImage.src =
+//     "https://images.unsplash.com/photo-1718202248232-0cdbc15d29b2?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+// }

@@ -6,8 +6,42 @@ h2 {
   text-align: center;
   padding: 0;
 }
-p {
+#quote {
   margin: -45px;
   font-size: 1.2rem;
   text-align: center;
+}
+
+.button {
+  margin-top: 6rem;
+  display: inline-block;
+  background-color: #000000;
+  color: #fff;
+  padding: 0.6rem 2rem;
+  text-decoration: none;
+  transition: 0.3s all;
+  font-family: Helvetica;
+  border: 1px solid;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: #000000;
+}
+
+.button_two {
+  margin-top: 6rem;
+  display: inline-block;
+  background-color: tomato;
+  color: #fff;
+  padding: 0.6rem 2rem;
+  text-decoration: none;
+  transition: 0.3s all;
+  font-family: Helvetica;
+  border: 1px solid;
+}
+
+.button_two:hover {
+  background-color: transparent;
+  color: #000000;
 }
