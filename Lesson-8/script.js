@@ -975,3 +975,40 @@ let currentDate = new Date();
 // buttonAnchor.style.textDecoration = "none";
 // buttonAnchor.href = "https://fonts.google.com/";
 // buttonAnchor.target = "_blank";
+
+// let innerDiv = document.getElementById("box-container");
+// let list = document.createElement("p");
+// let listText_4 = document.createTextNode("This is paragraph 4");
+// let listText_5 = document.createTextNode("This is paragraph 5");
+// let listText_6 = document.createTextNode("This is paragraph 6");
+
+// innerDiv.appendChild(listText_4);
+
+// var innerDiv = document.getElementById("box-container");
+// var paragraph_4 = document.createElement("p");
+// var paragraphText = document.createTextNode("This is paragraph 4");
+
+// paragraph_4.appendChild(paragraphText);
+
+// innerDiv.appendChild(paragraph_4);
+
+// let container = document.getElementById("box-container");
+// let listItem = document.createElement("li");
+// let listItem_5 = document.createElement("li");
+// let listItem_6 = document.createElement("li");
+// let listContent = document.createTextNode("List 4");
+// let listContent_5 = document.createTextNode("List 5");
+// let listContent_6 = document.createTextNode("List 6");
+
+// listItem.appendChild(listContent);
+// listItem_5.appendChild(listContent_5);
+// listItem_6.appendChild(listContent_6);
+
+// container.appendChild(listItem);
+// container.appendChild(listItem_5);
+// container.appendChild(listItem_6);
+// // container.removeChild(listItem);
+// // let removeList = document.querySelectorAll("div li")[1];
+// // container.removeChild(removeList);
+// // container.removeChild(listItem_6);
+// // container.removeChild(listItem);
