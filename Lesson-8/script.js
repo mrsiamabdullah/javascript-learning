@@ -964,3 +964,14 @@ let currentDate = new Date();
 //   showImage.src =
 //     "https://images.unsplash.com/photo-1718202248232-0cdbc15d29b2?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 // }
+
+// let buttonAnchor = document.querySelectorAll("a")[0];
+// buttonAnchor.innerHTML = "Click Me";
+
+// buttonAnchor.style.backgroundColor = "Black";
+// buttonAnchor.style.color = "#fff";
+// buttonAnchor.style.padding = ".6rem 2rem";
+// buttonAnchor.style.display = "inline-block0";
+// buttonAnchor.style.textDecoration = "none";
+// buttonAnchor.href = "https://fonts.google.com/";
+// buttonAnchor.target = "_blank";
