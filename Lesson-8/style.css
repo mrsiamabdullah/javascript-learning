@@ -1,5 +1,5 @@
 * {
-  background-color: papayawhip;
+  background-color: lavenderblush;
 }
 
 h2 {
@@ -13,7 +13,7 @@ h2 {
   text-align: center;
 }
 
-.button {
+/* .button {
   display: inline-block;
   background-color: #000000;
   color: #fff;
@@ -43,7 +43,7 @@ h2 {
 .button_two:hover {
   background-color: transparent;
   color: #000000;
-}
+} */
 
 /* .box-container {
   margin-top: 8rem;
@@ -57,9 +57,18 @@ h2 {
   display: flex;
 } */
 
-.box-color li {
+/* .box-color li {
   background-color: lightcoral;
   padding: 1rem;
   font-size: 1.5rem;
   text-align: center;
+} */
+
+.paragraph {
+  font-size: 2rem;
+  font-family: "Lucida Sans";
+  background-color: coral;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 10px;
 }

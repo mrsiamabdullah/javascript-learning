@@ -1075,3 +1075,25 @@ let currentDate = new Date();
 // function removeStyle() {
 //   addColor.classList.remove("box-color");
 // }
+
+// document.querySelectorAll("button")[0].addEventListener("click", alertClick);
+
+// function alertClick() {
+//   alert("Hello World!");
+// }
+
+// document.querySelectorAll("button")[0].addEventListener("click", function () {
+//   alert("Hi this is a prompt");
+// });
+
+// let clickEvent = document.querySelectorAll("button")[0];
+
+// clickEvent.addEventListener("click", function () {
+//   alert("Hi! this is a prompt");
+// });
+
+// let paragraphDesign = document.querySelectorAll("p")[1];
+
+// paragraphDesign.addEventListener("click", function () {
+//   paragraphDesign.classList.add("paragraph");
+// });
