@@ -13,7 +13,7 @@ h2 {
   text-align: center;
 }
 
-/* .button {
+.button {
   display: inline-block;
   background-color: #000000;
   color: #fff;
@@ -22,7 +22,6 @@ h2 {
   transition: 0.3s all;
   font-family: Helvetica;
   border: 1px solid;
-  margin-right: 9.3rem;
 }
 
 .button:hover {
@@ -46,7 +45,7 @@ h2 {
   color: #000000;
 }
 
-.box-container {
+/* .box-container {
   margin-top: 8rem;
   display: flex;
   justify-content: center;
@@ -57,3 +56,10 @@ h2 {
 .child_box {
   display: flex;
 } */
+
+.box-color li {
+  background-color: lightcoral;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
