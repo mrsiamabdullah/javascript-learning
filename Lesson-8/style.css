@@ -1,6 +1,7 @@
 * {
   background-color: papayawhip;
 }
+
 h2 {
   font-size: 4rem;
   text-align: center;
@@ -12,8 +13,7 @@ h2 {
   text-align: center;
 }
 
-.button {
-  margin-top: 6rem;
+/* .button {
   display: inline-block;
   background-color: #000000;
   color: #fff;
@@ -22,6 +22,7 @@ h2 {
   transition: 0.3s all;
   font-family: Helvetica;
   border: 1px solid;
+  margin-right: 9.3rem;
 }
 
 .button:hover {
@@ -30,7 +31,6 @@ h2 {
 }
 
 .button_two {
-  margin-top: 6rem;
   display: inline-block;
   background-color: tomato;
   color: #fff;
@@ -45,3 +45,15 @@ h2 {
   background-color: transparent;
   color: #000000;
 }
+
+.box-container {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.child_box {
+  display: flex;
+} */

@@ -1026,3 +1026,32 @@ let currentDate = new Date();
 
 // container.appendChild(list);
 // container.appendChild(paragraph);
+
+let photos = [
+  "https://images.unsplash.com/photo-1716652894840-ad2be1cefd1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1677627073216-5425c85c6727?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1547084266-7501a964bf9b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+];
+
+let imageTag = document.querySelector("img");
+
+count = 0;
+function next() {
+  count++;
+  if (count >= photos.length) {
+    count = 0;
+    imageTag.src = photos[count];
+  } else {
+    imageTag.src = photos[count];
+  }
+}
+
+function previous() {
+  count--;
+  if (count < 0) {
+    count = photos.length - 1;
+    imageTag.src = photos[count];
+  } else {
+    imageTag.src = photos[count];
+  }
+}
