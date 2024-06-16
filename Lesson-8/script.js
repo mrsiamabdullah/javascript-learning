@@ -1013,3 +1013,16 @@ let currentDate = new Date();
 // // container.removeChild(listItem_6);
 // // container.removeChild(listItem);
 // // container.insertBefore(listItem_6, removeList);
+
+// let container = document.getElementById("box-container");
+
+// let paragraph = document.createElement("p");
+// let list = document.createElement("li");
+// let listText = document.createTextNode("List 4");
+// let paragraphText = document.createTextNode("This is a paragraph!");
+
+// paragraph.appendChild(paragraphText);
+// list.appendChild(listText);
+
+// container.appendChild(list);
+// container.appendChild(paragraph);
