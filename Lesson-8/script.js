@@ -1097,3 +1097,12 @@ let currentDate = new Date();
 // paragraphDesign.addEventListener("click", function () {
 //   paragraphDesign.classList.add("paragraph");
 // });
+
+// let paragraphDesign = document.querySelectorAll("p")[1];
+// let Button = document.querySelectorAll("button")[0];
+
+// Button.addEventListener("click", changeColor);
+
+// function changeColor() {
+//   paragraphDesign.classList.add("paragraph");
+// }
