@@ -1106,3 +1106,12 @@ let currentDate = new Date();
 // function changeColor() {
 //   paragraphDesign.classList.add("paragraph");
 // }
+
+// for (var i = 0; i <= 2; i++) {
+//   document
+//     .querySelectorAll(".my_button")
+//     [i].addEventListener("click", function () {
+//       var text = this.innerHTML;
+//       document.querySelector("h3").innerHTML = text + " is clicked";
+//     });
+// }
