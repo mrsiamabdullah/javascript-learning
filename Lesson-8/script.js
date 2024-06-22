@@ -1115,3 +1115,59 @@ let currentDate = new Date();
 //       document.querySelector("h3").innerHTML = text + " is clicked";
 //     });
 // }
+
+// document.querySelectorAll("button")[0].addEventListener("click", function () {
+//   this.innerHTML = "Hello World";
+//   //   alert("Hello");
+// });
+
+// for (var i = 0; i <= 2; i++) {
+//   var playAudio = document.querySelectorAll("button")[i];
+//   playAudio.addEventListener("click", function () {
+//     var text = this.innerHTML;
+//     // console.log(text);
+//     audioFunction(text);
+//     playAnimation(text);
+//   });
+// }
+
+// document.addEventListener("keypress", function (event) {
+//   var textList = event.key;
+//   audioFunction(textList);
+//   playAnimation(textList);
+// });
+
+// function audioFunction(text) {
+//   if (text === "A") {
+//     var audio = new Audio("Audio/clap.wav");
+//     audio.play();
+//   } else if (text === "B") {
+//     var audio = new Audio("Audio/kick.wav");
+//     audio.play();
+//   } else if (text === "C") {
+//     var audio = new Audio("Audio/snare.wav");
+//     audio.play();
+//   }
+// }
+
+// function playAnimation(text) {
+//   var selectButton = document.querySelector("." + text);
+//   selectButton.classList.add("animation");
+
+//   setTimeout(function () {
+//     selectButton.classList.remove("animation");
+//   }, 2000);
+// }
+
+// let addcolor = document.querySelector(".A");
+
+// function styleAdd() {
+//   addcolor.classList.add("animation");
+// }
+
+document.addEventListener("keypress", function (event) {
+  var pressButton = event.key;
+  document.querySelectorAll("p")[1].innerHTML =
+    "You have clicked " + pressButton;
+  playAudio(pressButton);
+});

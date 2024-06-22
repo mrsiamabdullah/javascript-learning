@@ -64,11 +64,27 @@ h2 {
   text-align: center;
 } */
 
-.paragraph {
+/* .paragraph {
   font-size: 2rem;
   font-family: "Lucida Sans";
   background-color: coral;
   display: inline-block;
   padding: 1rem;
   border-radius: 10px;
+} */
+
+.A,
+.B,
+.C {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.animation {
+  background-color: tomato;
+  color: black;
+  width: 100px;
+  height: 30px;
+  transition: 0.3s all;
 }
