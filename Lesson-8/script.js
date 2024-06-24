@@ -1165,9 +1165,12 @@ let currentDate = new Date();
 //   addcolor.classList.add("animation");
 // }
 
-document.addEventListener("keypress", function (event) {
-  var pressButton = event.key;
-  document.querySelectorAll("p")[1].innerHTML =
-    "You have clicked " + pressButton;
-  playAudio(pressButton);
-});
+// document.addEventListener("keypress", function (event) {
+//   var pressButton = event.key;
+//   document.querySelectorAll("p")[1].innerHTML =
+//     "You have clicked " + pressButton;
+//   playAudio(pressButton);
+// });
+
+// var num = 0;
+// console.log(Boolean(num));
