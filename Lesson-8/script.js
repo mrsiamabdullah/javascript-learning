@@ -1174,3 +1174,16 @@ let currentDate = new Date();
 
 // var num = 0;
 // console.log(Boolean(num));
+
+// function addstyle() {
+//   var addStyleParagraph = document.querySelectorAll("p")[1];
+//   addStyleParagraph.classList.add("paragraph_style");
+
+//   //   var removeStyle = (document.querySelectorAll("button")[0].innerText =
+//   //     "Remove");
+// }
+
+// function removestyle() {
+//   var removeStyleParagraph = document.querySelectorAll("p")[1];
+//   removeStyleParagraph.classList.remove("paragraph_style");
+// }
