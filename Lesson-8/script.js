@@ -1187,3 +1187,9 @@ let currentDate = new Date();
 //   var removeStyleParagraph = document.querySelectorAll("p")[1];
 //   removeStyleParagraph.classList.remove("paragraph_style");
 // }
+
+// var heading = document.querySelector("h1");
+
+// heading.addEventListener("click", function () {
+//   heading.classList.add("h1style");
+// });
