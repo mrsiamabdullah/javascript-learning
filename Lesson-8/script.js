@@ -1193,3 +1193,11 @@ let currentDate = new Date();
 // heading.addEventListener("click", function () {
 //   heading.classList.add("h1style");
 // });
+
+for (var i = 0; i <= 2; i++) {
+  document.querySelectorAll("button")[i].addEventListener("click", clickEvent);
+  function clickEvent() {
+    var text = this.innerText;
+    document.querySelector("h1").innerText = text + " is clicked";
+  }
+}
