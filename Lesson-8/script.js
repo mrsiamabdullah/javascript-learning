@@ -1201,3 +1201,11 @@ let currentDate = new Date();
 //     document.querySelector("h1").innerText = text + " is clicked";
 //   }
 // }
+
+var fruit = "Jackfruit";
+var car = "BMW";
+var name = "Siam";
+
+console.log(
+  `${name} is one of a good student in his class. He love ${car} racing car. His favorite fruit is ${fruit}`
+);
