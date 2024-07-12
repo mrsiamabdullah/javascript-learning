@@ -1202,10 +1202,14 @@ let currentDate = new Date();
 //   }
 // }
 
-var fruit = "Jackfruit";
-var car = "BMW";
-var name = "Siam";
+// var fruit = "Jackfruit";
+// var car = "BMW";
+// var name = "Siam Abdullah";
 
-console.log(
-  `${name} is one of a good student in his class. He love ${car} racing car. His favorite fruit is ${fruit}`
-);
+// // console.log(
+// //   `${name} is one of a good student in his class. He love ${car} racing car. His favorite fruit is ${fruit}`
+// // );
+
+// console.log(
+//   `${fruit} is my favorite fruit. I want to drive ${car} car and my name is ${name}`
+// );
