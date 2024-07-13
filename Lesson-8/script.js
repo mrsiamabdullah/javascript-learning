@@ -1213,3 +1213,6 @@ let currentDate = new Date();
 // console.log(
 //   `${fruit} is my favorite fruit. I want to drive ${car} car and my name is ${name}`
 // );
+
+<CLG></CLG>;
+console.log("Hi this is commit!");
