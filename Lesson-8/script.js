@@ -1296,3 +1296,12 @@ let currentDate = new Date();
 // 2	yield*	Delegate	yield* x
 // 2	...	Spread	... x
 // 1	,	Comma	x , y
+
+// let carModel = 2017;
+
+// {
+//   let carModel = 2018;
+//   console.log(carModel);
+// }
+
+// console.log(carModel);
