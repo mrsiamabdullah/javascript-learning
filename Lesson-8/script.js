@@ -886,9 +886,11 @@
 // const randomNumber = Math.random();
 // randomCode = Math.floor(Math.random() * 999999);
 // if (randomCode <= 999999) {
-//   randomCode + 1000;
+//   randomCode + 10000;
 //   console.log(randomCode);
 // }
+
+// console.log(randomNumber);
 
 // function CarDetails(CarName, CarModel, CarPrice) {
 //   this.CarName = CarName;
@@ -907,7 +909,7 @@
 
 // console.log(StudentDetails);
 
-let currentDate = new Date();
+// let currentDate = new Date();
 // document.write("<p>", "Time: ", currentDate.toLocaleTimeString(), "</p>");
 // console.log(currentDate);
 // let currentYear = currentDate.getFullYear();
@@ -1305,3 +1307,161 @@ let currentDate = new Date();
 // }
 
 // console.log(carModel);
+
+// const user = "Hello JS";
+// user = "new user"; // it will through an error
+// console.log(user);
+
+// let car;
+// console.log(car); // it will show undefined since there is no value assign to it
+// console.log(typeof car); // type will show undefined as well
+
+// // Null
+// let age = null; // null means empty or nothing is there
+// console.log(age);
+// console.log(typeof age); // here we can see that in console it's showing object which is a bug in javascript hasn't been resolved yet.
+
+// My name is Siam Abdullah
+// My name is Siam Abdullah
+
+// let num = 30;
+// num += num; // it is the same thing as number = number + number
+// console.log(num);
+
+// let countryNumber = 24;
+// countryNumber++;
+// console.log(countryNumber);
+
+// let calculate = 324 + (34 * 3) / 10;
+// console.log(calculate);
+
+// calculate = ((24 + 34) * 3) / 10;
+// console.log(calculate);
+
+// javascriptCopy code
+// let myNum = 123;
+// myNum.toExponential(2); // "1.23e+2"
+// console.log(myNum);
+
+// javascriptCopy code
+// let myNum = 123.456;
+// myNum.toFixed(2); // "123.5"
+// console.log(myNum);
+
+// var number = number.isNaN("");
+// // Number.isNaN(NaN);
+// console.log(number);
+
+// let mathNumber = 50;
+// let result = Math.sqrt(mathNumber);
+// let total = result.toPrecision(4);
+// console.log(total);
+
+// --- New Chapter Begins
+
+// let country = "Bangladesh";
+// console.log(typeof country);
+
+// Javascript Arithmetic Operators
+
+// 1) +
+// 2) -
+// 3) *
+// 4) /
+// 5) %
+// 6) **
+// 7) ++
+// 8) --
+
+// Javascript Assignment Operators
+
+// 1) = , x = y
+// 2) += , x = x + y
+// 3) -= , x = x - y
+// 4) *= , x = x * y
+// 5) /= , x = x / y
+// 6) %= , x = x % y
+// 7) **= , x = x ** y
+
+// Javascript Comparison Operator
+
+// 1) ==
+// 2) ===
+// 3) !=
+// 4) !==
+// 5) >
+// 6) <
+// 7) >=
+// 8) <=
+// 9) ?
+
+// var carName = "Tesla";
+// console.log(carName);
+
+// {
+//   var carName = "BMW";
+// }
+
+// console.log(carName);
+
+// let carModel = "Tesla Model X";
+
+// {
+//   let carModel = "Tesla Model Y";
+//   console.log(carModel);
+// }
+
+// console.log(carModel);
+
+// const stranger = "Man";
+// console.log(stranger);
+
+// {
+//   const stranger = "Man";
+//   console.log(stranger);
+
+//   const womenStranger = "Female";
+//   console.log(womenStranger);
+// }
+
+// let year = 2001;
+// year = year * year;
+// year *= year;
+// console.log(year);
+
+// let number = 123;
+// let result = number.toString();
+// console.log(typeof result);
+
+// let fixedNumbers = 144.444;
+// let result = fixedNumbers.toFixed(1);
+// console.log(result);
+
+// javascriptCopy code
+// let myNum = 123;
+// let result = myNum.toExponential(2);
+
+// console.log(result);
+
+// let number = 724.324;
+// let total = number.toPrecision(4);
+// console.log(total);
+
+// // javascriptCopy code
+// let myNum = 123.456;
+// let result = myNum.toPrecision(3); // "123.5"
+// console.log(result);
+
+// let number = 2024;
+// let result = parseInt(2443.243);
+// console.log(result);
+
+// a = parseInt("100", 10);
+// console.log('parseInt("100",10) = ' + a);
+
+// console.log(a);
+
+// let result = parseFloat("12324");
+// console.log(typeof result);
+
+// console.log("Ashraful");
