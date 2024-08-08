@@ -1465,3 +1465,11 @@
 // console.log(typeof result);
 
 // console.log("Ashraful");
+// console.log("Siam Abdullah");
+
+// let demoNumber = 9999999999999999n;
+// let demoNumber2 = 9999999999999999n;
+
+// total = demoNumber * demoNumber2;
+// BigInt(total);
+// console.log(total);
