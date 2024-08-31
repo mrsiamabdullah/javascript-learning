@@ -1473,3 +1473,30 @@
 // total = demoNumber * demoNumber2;
 // BigInt(total);
 // console.log(total);
+
+// const mobileModel = {
+//   brand: "Redmi",
+//   model: "Note 10s",
+//   price: "19999",
+//   camera: ["24PX", "12PX Ultrawide", "8PX Telephoto"],
+//   battery: "3600MAH",
+//   protection: "Corning Gorilla Glass",
+// };
+
+// console.log(mobileModel.camera[1]);
+
+// var playersInfo = [
+//   ["Siam", 18],
+//   ["Nafiz", 15],
+//   ["Jubayer", 14],
+// ];
+// console.log(playersInfo);
+// console.log(playersInfo[0][0]);
+// console.log(playersInfo[2][1]);
+
+// document.write("Name: Siam Abdullah </br>");
+// document.write("Phone: 01000000000 </br>");
+// document.write("Email: mrsiamabdullah@gmail.com </br>");
+// document.write("Address: Dhaka, Bangladesh </br>");
+// document.write("Class: XI <br/>");
+// document.write("College: Shaheed Ramiz Uddin Cantonment College <br/>");
