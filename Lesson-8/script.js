@@ -1500,3 +1500,5 @@
 // document.write("Address: Dhaka, Bangladesh </br>");
 // document.write("Class: XI <br/>");
 // document.write("College: Shaheed Ramiz Uddin Cantonment College <br/>");
+
+// JavaScript Number Methods
