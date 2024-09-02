@@ -1502,3 +1502,32 @@
 // document.write("College: Shaheed Ramiz Uddin Cantonment College <br/>");
 
 // JavaScript Number Methods
+
+/*
+toString()	Returns a number as a string
+toExponential()	Returns a number written in exponential notation
+toFixed()	Returns a number written with a number of decimals
+toPrecision()	Returns a number written with a specified length
+valueOf()   Returns a number as a number
+*/
+
+// var num = "20.2";
+
+// // num = toString(num);
+// num = parseInt(num);
+
+// console.log(typeof num);
+
+// var number = 18.333;
+// console.log(number.toFixed(2));
+// console.log(typeof number.toFixed(2));
+// console.log(number.toPrecision(3));
+// console.log(typeof number.toPrecision(3));
+
+// console.log(typeof Number("   12.6   "));
+
+// let x = 33;
+// console.log(typeof Number(x));
+
+// console.log(Number(true));
+// console.log(Number(false));
