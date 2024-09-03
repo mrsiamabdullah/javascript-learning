@@ -1531,3 +1531,63 @@ valueOf()   Returns a number as a number
 
 // console.log(Number(true));
 // console.log(Number(false));
+
+/*
+let firstName = "Siam ";
+let lastName = "Abdullah";
+
+let fullName = firstName + lastName;
+
+console.log("My name is " + fullName);
+console.log("My username is", firstName);
+*/
+
+// let userPrompt = prompt("Enter your text: ");
+// console.log(userPrompt.length);
+// console.log("The length of Siam name is:", userPrompt.length);
+// document.write(userPrompt.toUpperCase());
+// document.write(userPrompt.toLowerCase());
+// console.log(userPrompt.charAt(2));
+
+// userPrompt = userPrompt.slice(0, 2);
+// console.log(userPrompt);
+
+// let firstName = prompt("Enter your first name: ");
+// let lastName = prompt("Enter your last name: ");
+
+// fullName = firstName + " " + lastName;
+// console.log(fullName);
+// console.log("Total length of full name:", fullName.length);
+// console.log("Converting full name into UPPERCASE:", fullName.toUpperCase());
+// console.log("The 2nd position of full name is:", fullName.charAt(2));
+
+// let number1 = prompt("Enter 1st number: ");
+// let number2 = prompt("Enter 2nd number: ");
+
+// number1 = parseInt(number1, 10);
+// number2 = parseInt(number2, 10);
+
+// addition = number1 + number2;
+// substraction = number1 - number2;
+// division = number1 / number2;
+// multiplication = number1 * number2;
+
+// document.write("Addition: ", number1, " + ", number2, " = ", addition, "</br>");
+// document.write(
+//   "Substraction: ",
+//   number1,
+//   " - ",
+//   number2,
+//   " = ",
+//   substraction,
+//   "</br>"
+// );
+// document.write("Division: ", number1, " / ", number2, " = ", division, "</br>");
+// document.write(
+//   "Multiplication: ",
+//   number1,
+//   " * ",
+//   number2,
+//   " = ",
+//   multiplication
+// );
