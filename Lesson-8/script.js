@@ -1591,3 +1591,65 @@ console.log("My username is", firstName);
 //   " = ",
 //   multiplication
 // );
+
+// let markGrade = prompt("Enter your mark: ");
+
+// markGrade = parseInt(markGrade);
+
+// if (markGrade > 100) console.log("This is not a valid number");
+// else if (markGrade >= 90) console.log("A+");
+// else if (markGrade >= 70) console.log("A-");
+// else console.log("Fail");
+
+// let letter = prompt("Enter your later: ");
+
+// letter = letter.toLowerCase();
+
+// if (
+//   letter === "a" ||
+//   letter === "e" ||
+//   letter === "i" ||
+//   letter === "o" ||
+//   letter === "u"
+// ) {
+//   console.log("Vowel");
+// } else console.log("Consonant");
+
+// let digitSpelling = prompt("Enter a digit: ");
+
+// digitSpelling = Number(digitSpelling);
+
+// switch (digitSpelling) {
+//   case 0:
+//     console.log("Zero");
+//     break;
+//   case 1:
+//     console.log("One");
+//     break;
+//   case 2:
+//     console.log("Two");
+//     break;
+//   case 3:
+//     console.log("Three");
+//     break;
+//   case 4:
+//     console.log("Four");
+//     break;
+//   case 5:
+//     console.log("Five");
+//     break;
+//   case 6:
+//     console.log("Six");
+//     break;
+//   case 7:
+//     console.log("Seven");
+//     break;
+//   case 8:
+//     console.log("Eight");
+//     break;
+//   case 9:
+//     console.log("Nine");
+//     break;
+//   default:
+//     console.log("Not a number");
+// }
