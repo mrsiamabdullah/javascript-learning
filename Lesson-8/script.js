@@ -1561,33 +1561,33 @@ console.log("My username is", firstName);
 // console.log("Converting full name into UPPERCASE:", fullName.toUpperCase());
 // console.log("The 2nd position of full name is:", fullName.charAt(2));
 
-let number1 = prompt("Enter 1st number: ");
-let number2 = prompt("Enter 2nd number: ");
+// let number1 = prompt("Enter 1st number: ");
+// let number2 = prompt("Enter 2nd number: ");
 
-number1 = parseInt(number1, 10);
-number2 = parseInt(number2, 10);
+// number1 = parseInt(number1, 10);
+// number2 = parseInt(number2, 10);
 
-addition = number1 + number2;
-substraction = number1 - number2;
-division = number1 / number2;
-multiplication = number1 * number2;
+// addition = number1 + number2;
+// substraction = number1 - number2;
+// division = number1 / number2;
+// multiplication = number1 * number2;
 
-document.write("Addition: ", number1, " + ", number2, " = ", addition, "</br>");
-document.write(
-  "Substraction: ",
-  number1,
-  " - ",
-  number2,
-  " = ",
-  substraction,
-  "</br>"
-);
-document.write("Division: ", number1, " / ", number2, " = ", division, "</br>");
-document.write(
-  "Multiplication: ",
-  number1,
-  " * ",
-  number2,
-  " = ",
-  multiplication
-);
+// document.write("Addition: ", number1, " + ", number2, " = ", addition, "</br>");
+// document.write(
+//   "Substraction: ",
+//   number1,
+//   " - ",
+//   number2,
+//   " = ",
+//   substraction,
+//   "</br>"
+// );
+// document.write("Division: ", number1, " / ", number2, " = ", division, "</br>");
+// document.write(
+//   "Multiplication: ",
+//   number1,
+//   " * ",
+//   number2,
+//   " = ",
+//   multiplication
+// );
