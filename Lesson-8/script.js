@@ -1681,10 +1681,70 @@ console.log("My username is", firstName);
 //   console.log("Bangladesh");
 // }
 
-addition = 0;
+// addition = 0;
 
-for (x = 1; x <= 5; x++) {
-  addition = addition + x;
-}
+// for (x = 1; x <= 5; x++) {
+//   addition = addition + x;
+// }
 
-console.log(addition);
+// console.log(addition);
+
+// let x = 2;
+
+// addition = 0;
+// while (x <= 100) {
+//   addition = addition + x;
+//   x = x + 2;
+// }
+
+// var x = 2;
+
+// while (x <= 100) {
+//   if (x == 2 % 0 || x == 5 % 0) {
+//     console.log(x);
+//   }
+//   x = x + 2;
+// }
+
+// text += cars[0] + "<br>";
+// text += cars[1] + "<br>";
+// text += cars[2] + "<br>";
+// text += cars[3] + "<br>";
+// text += cars[4] + "<br>";
+// text += cars[5] + "<br>";
+
+// console.log(text);
+
+// for (variable of iterable) {
+//   // code block to be executed
+// }
+
+// var let = 1;
+
+// do {
+//   document.write(" " + let);
+//   let++;
+// } while (let <= 10);
+
+// for (setUp = 1; setUp <= 100; setUp++) {
+//   if (setUp % 2 == 0 && setUp % 5 == 0) {
+//     // break;
+//     console.log(true, setUp);
+//   } else console.log(false, setUp);
+// }
+
+// let PropertyValue = prompt("Enter your grade mark: ");
+// PropertyValue = parseInt(PropertyValue);
+
+// let result =
+//   PropertyValue > 100
+//     ? "Not a valid number!"
+//     : PropertyValue >= 90
+//     ? "A+"
+//     : PropertyValue >= 80
+//     ? "A-"
+//     : PropertyValue >= 70
+//     ? "A"
+//     : "Fail";
+
+// console.log(result);
