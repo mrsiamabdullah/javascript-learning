@@ -1653,3 +1653,30 @@ console.log("My username is", firstName);
 //   default:
 //     console.log("Not a number");
 // }
+
+// let letter = prompt("Enter your later: ");
+// letter = letter.toLowerCase();
+
+// switch (letter) {
+//   case "a":
+//     console.log("Vowel");
+//     break;
+//   case "e":
+//     console.log("Vowel");
+//     break;
+//   case "i":
+//     console.log("Vowel");
+//     break;
+//   case "o":
+//     console.log("Vowel");
+//     break;
+//   case "u":
+//     console.log("Vowel");
+//     break;
+//   default:
+//     console.log("Consonant");
+// }
+
+// for (var x = 1; x <= 5; x++) {
+//   console.log("Bangladesh");
+// }
