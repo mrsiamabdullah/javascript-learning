@@ -1680,3 +1680,11 @@ console.log("My username is", firstName);
 // for (var x = 1; x <= 5; x++) {
 //   console.log("Bangladesh");
 // }
+
+addition = 0;
+
+for (x = 1; x <= 5; x++) {
+  addition = addition + x;
+}
+
+console.log(addition);
