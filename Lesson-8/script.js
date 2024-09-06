@@ -1748,3 +1748,35 @@ console.log("My username is", firstName);
 //     : "Fail";
 
 // console.log(result);
+
+// var let = 1;
+
+// do {
+//   document.write(" " + let);
+//   let++;
+// } while (let < 10);
+
+function addition(number1, number2) {
+  result = number1 + number2;
+  document.write("Addition = ", result, "</br>");
+}
+
+function subtraction(number1, number2) {
+  result = number1 - number2;
+  document.write("Subtraction = ", result, "</br>");
+}
+
+function multiplication(number1, number2) {
+  result = number1 * number2;
+  document.write("Multiplication = ", result, "</br>");
+}
+
+function division(number1, number2) {
+  result = number1 / number2;
+  document.write("Division = ", result, "</br>");
+}
+
+addition(243, 28);
+subtraction(23, 34);
+multiplication(34, 345);
+division(324, 3252435);
