@@ -1756,27 +1756,45 @@ console.log("My username is", firstName);
 //   let++;
 // } while (let < 10);
 
-function addition(number1, number2) {
-  result = number1 + number2;
-  document.write("Addition = ", result, "</br>");
-}
+// function addition(number1, number2) {
+//   result = number1 + number2;
+//   document.write("Addition = ", result, "</br>");
+// }
 
-function subtraction(number1, number2) {
-  result = number1 - number2;
-  document.write("Subtraction = ", result, "</br>");
-}
+// function subtraction(number1, number2) {
+//   result = number1 - number2;
+//   document.write("Subtraction = ", result, "</br>");
+// }
 
-function multiplication(number1, number2) {
-  result = number1 * number2;
-  document.write("Multiplication = ", result, "</br>");
-}
+// function multiplication(number1, number2) {
+//   result = number1 * number2;
+//   document.write("Multiplication = ", result, "</br>");
+// }
 
-function division(number1, number2) {
-  result = number1 / number2;
-  document.write("Division = ", result, "</br>");
-}
+// function division(number1, number2) {
+//   result = number1 / number2;
+//   document.write("Division = ", result, "</br>");
+// }
 
-addition(243, 28);
-subtraction(23, 34);
-multiplication(34, 345);
-division(324, 3252435);
+// addition(243, 28);
+// subtraction(23, 34);
+// multiplication(34, 345);
+// division(324, 3252435);
+
+// let number1 = parseInt(prompt("Enter your first number: "));
+// let number2 = parseInt(prompt("Enter your second number: "));
+
+// function showDisplay(number1, number2) {
+//   let result = number1 + number2;
+//   console.log(result);
+// }
+
+// showDisplay(number1, number2);
+
+// let number1 = parseInt(prompt("Enter your first number: "));
+// let number2 = parseInt(prompt("Enter your second number: "));
+
+// (function display(number1, number2) {
+//   let result = number1 + number2;
+//   console.log(result);
+// })(number1, number2);
