@@ -1781,6 +1781,8 @@ console.log("My username is", firstName);
 // multiplication(34, 345);
 // division(324, 3252435);
 
+// Traditional Function
+
 // let number1 = parseInt(prompt("Enter your first number: "));
 // let number2 = parseInt(prompt("Enter your second number: "));
 
@@ -1791,6 +1793,8 @@ console.log("My username is", firstName);
 
 // showDisplay(number1, number2);
 
+// Immediately Invoked Function Expressions (IIFEs)
+
 // let number1 = parseInt(prompt("Enter your first number: "));
 // let number2 = parseInt(prompt("Enter your second number: "));
 
@@ -1798,3 +1802,37 @@ console.log("My username is", firstName);
 //   let result = number1 + number2;
 //   console.log(result);
 // })(number1, number2);
+
+// Function Expression
+
+// let showMessage = function showMessage(message) {
+//   console.log(message);
+// };
+
+// showMessage("Hi this is me message");
+
+// let names = Array("Siam", "Nafiz", "Jubayer");
+
+// names[0] = "Siam";
+// names[1] = "Nafiz";
+// names[2] = "Jubayer";
+// names.push("Anas");
+// names.pop("Anas");
+// names.pop(names[2]);
+
+// console.log(names);
+// console.log(names[2]);
+// console.log(names.length);
+// console.log(names);
+// console.log(names);
+
+var newArray = [34, 32, 243.243, 34, 324];
+total = 0;
+// console.log(newArray);
+
+for (a = 0; a < 5; a++) {
+  console.log(newArray[a]);
+  total = total + newArray[a];
+}
+
+console.log(total);
