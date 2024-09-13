@@ -1837,10 +1837,10 @@ console.log("My username is", firstName);
 
 // console.log(total);
 
-var names = ["Siam", "Nafiz", "Jubayer"];
+// var names = ["Siam", "Nafiz", "Jubayer"];
 // names.shift();
 // names.unshift("Anas");
-names.splice(3, 0, "Ashraful", "Sowad", "Hasnat", "Samir");
+// names.splice(3, 0, "Ashraful", "Sowad", "Hasnat", "Samir");
 // names.splice(3, 4);
 // var sliceArray = names.slice(0, 3);
 // console.log(sliceArray);
@@ -1955,3 +1955,53 @@ names.splice(3, 0, "Ashraful", "Sowad", "Hasnat", "Samir");
 
 // document.write("You have won " + numberOFWin + " times", "</br>");
 // document.write("You have lost " + numberOfLost + " times");
+
+// var date = new Date();
+
+// var second = date.getSeconds();
+// console.log(second);
+
+// var day = date.getDay();
+// console.log(day);
+
+// var year = date.getFullYear();
+// console.log(year);
+
+// var timeZone = date.getTimezoneOffset();
+// console.log(timeZone);
+
+// DOM
+
+// var changeText = document.getElementById("text");
+// changeText.innerText = "My name is Siam Abdullah";
+// var changeText = document.querySelector(".box a");
+// changeText.innerText = "Click";
+
+// var changeText = document.querySelectorAll("div ul li")[1];
+// changeText.innerHTML = "Item";
+
+var paragraph = document.getElementById("paragraph");
+var my_image = document.getElementById("my_image");
+// var showImage = document.getElementById("showImage");
+// var showImage2 = document.getElementById("showImage2");
+
+function message() {
+  paragraph.innerHTML = "You have clicked on Button 1";
+
+  //   showImage.style = "block";
+  //   alert("Hi this is a message");
+}
+
+function message2() {
+  paragraph.innerHTML = "You have clicked on Button 2";
+  //   showImage2.style = "block";
+}
+
+function message3() {
+  my_image.src =
+    "https://scontent.fdac135-1.fna.fbcdn.net/v/t1.6435-9/61109021_434579497329038_2374835727474098176_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=U9ay1_IpNT8Q7kNvgHONJto&_nc_ht=scontent.fdac135-1.fna&oh=00_AYDt896-kO50vkJ1I9Ii7PsjJThtj4iLppmCGH_f4Jy4Cw&oe=670BC119";
+}
+
+function message4() {
+  my_image.style.display = "none";
+}
