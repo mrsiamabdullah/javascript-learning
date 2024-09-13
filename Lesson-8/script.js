@@ -1826,13 +1826,42 @@ console.log("My username is", firstName);
 // console.log(names);
 // console.log(names);
 
-var newArray = [34, 32, 243.243, 34, 324];
-total = 0;
-// console.log(newArray);
+// var newArray = [34, 32, 243.243, 34, 324];
+// total = 0;
+// // console.log(newArray);
 
-for (a = 0; a < 5; a++) {
-  console.log(newArray[a]);
-  total = total + newArray[a];
-}
+// for (a = 0; a < 5; a++) {
+//   console.log(newArray[a]);
+//   total = total + newArray[a];
+// }
 
-console.log(total);
+// console.log(total);
+
+var names = ["Siam", "Nafiz", "Jubayer"];
+// names.shift();
+// names.unshift("Anas");
+names.splice(3, 0, "Ashraful", "Sowad", "Hasnat", "Samir");
+// names.splice(3, 4);
+// var sliceArray = names.slice(0, 3);
+// console.log(sliceArray);
+// names.sort();
+// names.reverse();
+// console.log(names);
+
+// for (x = 0; x < 7; x++) {
+//   console.log(names[x]);
+// }
+
+// function highestScores(array) {
+//   var max = array[0];
+//   for (let i = 1; i < array.length; i++) {
+//     if (max < array[i]) {
+//       max = array[i];
+//     }
+//   }
+//   return max;
+// }
+// let scores = [10, 14, 12, 12, 15, 21];
+
+// let result = highestScores(scores);
+// console.log(result);
