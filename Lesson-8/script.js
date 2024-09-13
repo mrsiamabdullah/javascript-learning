@@ -1865,3 +1865,93 @@ names.splice(3, 0, "Ashraful", "Sowad", "Hasnat", "Samir");
 
 // let result = highestScores(scores);
 // console.log(result);
+
+// function highestRunScorer(playersInfo) {
+//   //   let maximum = [0];
+//   //   for (let i = 1; i < playersInfo.length; i++) {}
+//   console.log(playersInfo);
+// }
+
+// let playersInfo = [
+//   ["Siam", 23],
+//   ["Nafiz", 45],
+//   ["Jubayer", 295],
+//   ["Anas", 354],
+// ];
+
+// highestRunScorer(playersInfo);
+
+// let studentInfo = {
+//   name: "Siam Abdullah",
+//   roll: 237664,
+//   section: "C",
+//   department: "Business",
+//   college: "SRCC",
+// };
+
+// console.log(studentInfo);
+
+// OBJECT
+// function studentInfo(name, roll, section, department, college) {
+//   this.name = name;
+//   this.roll = roll;
+//   this.section = section;
+//   this.department = department;
+//   this.college = college;
+
+// }
+
+// let student_Siam = new studentInfo(
+//   "Siam Abdullah",
+//   "7664",
+//   "C",
+//   "Business",
+//   "SRCC"
+// );
+
+// let student_Nafiz = new studentInfo(
+//   "Nafiz Abdullah",
+//   "-",
+//   "random",
+//   "random",
+//   "not in a college"
+// );
+
+// let student_Jubayer = new studentInfo(
+//   "Jubayer Abdullah",
+//   "-",
+//   "random",
+//   "random",
+//   "not in a college"
+// );
+
+// console.log(student_Siam);
+// console.log(student_Nafiz);
+// console.log(student_Jubayer);
+
+// MATH OBJECT
+// var randomNumber = 4.8;
+// var randomNumber2 = 2.1;
+
+// randomNumber = Math.floor(randomNumber);
+// randomNumber2 = Math.ceil(randomNumber2);
+
+// console.log(randomNumber);
+// console.log(randomNumber2);
+
+// var numberOFWin = 0;
+// var numberOfLost = 0;
+
+// for (x = 1; x <= 5; x++) {
+//   var guessNumber = parseInt(prompt("Enter your number from 1 to 5: "));
+//   var randomNumber = Math.floor(Math.random() * 5) + 1;
+
+//   if (guessNumber === randomNumber) {
+//     console.log("You have won");
+//     numberOFWin++;
+//   } else console.log("You have lost Random number was " + randomNumber);
+//   numberOfLost++;
+// }
+
+// document.write("You have won " + numberOFWin + " times", "</br>");
+// document.write("You have lost " + numberOfLost + " times");
