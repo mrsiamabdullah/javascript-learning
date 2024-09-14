@@ -1980,28 +1980,42 @@ console.log("My username is", firstName);
 // var changeText = document.querySelectorAll("div ul li")[1];
 // changeText.innerHTML = "Item";
 
-var paragraph = document.getElementById("paragraph");
-var my_image = document.getElementById("my_image");
-// var showImage = document.getElementById("showImage");
-// var showImage2 = document.getElementById("showImage2");
+// var paragraph = document.getElementById("paragraph");
+// var my_image = document.getElementById("my_image");
+// // var showImage = document.getElementById("showImage");
+// // var showImage2 = document.getElementById("showImage2");
 
-function message() {
-  paragraph.innerHTML = "You have clicked on Button 1";
+// function message() {
+//   paragraph.innerHTML = "You have clicked on Button 1";
 
-  //   showImage.style = "block";
-  //   alert("Hi this is a message");
-}
+//   //   showImage.style = "block";
+//   //   alert("Hi this is a message");
+// }
 
-function message2() {
-  paragraph.innerHTML = "You have clicked on Button 2";
-  //   showImage2.style = "block";
-}
+// function message2() {
+//   paragraph.innerHTML = "You have clicked on Button 2";
+//   //   showImage2.style = "block";
+// }
 
-function message3() {
-  my_image.src =
-    "https://scontent.fdac135-1.fna.fbcdn.net/v/t1.6435-9/61109021_434579497329038_2374835727474098176_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=U9ay1_IpNT8Q7kNvgHONJto&_nc_ht=scontent.fdac135-1.fna&oh=00_AYDt896-kO50vkJ1I9Ii7PsjJThtj4iLppmCGH_f4Jy4Cw&oe=670BC119";
-}
+// function message3() {
+//   my_image.src =
+//     "https://scontent.fdac135-1.fna.fbcdn.net/v/t1.6435-9/61109021_434579497329038_2374835727474098176_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=U9ay1_IpNT8Q7kNvgHONJto&_nc_ht=scontent.fdac135-1.fna&oh=00_AYDt896-kO50vkJ1I9Ii7PsjJThtj4iLppmCGH_f4Jy4Cw&oe=670BC119";
+// }
 
-function message4() {
-  my_image.style.display = "none";
-}
+// function message4() {
+//   my_image.style.display = "none";
+// }
+
+// var selectDIV = document.getElementById("my-div");
+// var link = document.getElementById("link");
+// var listItem = document.getElementById("list");
+
+// var anchorTAG = document.createElement("a");
+// var textDemo = document.createTextNode("About");
+// anchorTAG.href = "#";
+
+// anchorTAG.appendChild(textDemo);
+// selectDIV.insertBefore(anchorTAG, listItem);
+// link.style.textDecoration = "none";
+// anchorTAG.style.textDecoration = "none";
+// listItem.classList.add("listITEM");
