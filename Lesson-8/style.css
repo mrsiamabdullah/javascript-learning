@@ -97,3 +97,15 @@ h2 {
   display: inline-block;
   transition: 1s all;
 } */
+
+.paragraph{
+  
+font-size: 2.4rem;
+background-color:crimson;
+display: inline-block;
+color: #fff;
+padding: 10px;
+transition: all .3s;
+
+}
+

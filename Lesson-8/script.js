@@ -2019,3 +2019,15 @@ console.log("My username is", firstName);
 // link.style.textDecoration = "none";
 // anchorTAG.style.textDecoration = "none";
 // listItem.classList.add("listITEM");
+
+let paragraph = document.getElementById("paragraph");
+
+function addStyle() {
+  paragraph.classList.add("paragraph");
+}
+
+function removeStyle() {
+  paragraph.classList.remove("paragraph");
+  paragraph.style.transition = "all .3s";
+  paragraph.style.display = "inline-block";
+}
